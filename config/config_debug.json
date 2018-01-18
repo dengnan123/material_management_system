@@ -1,0 +1,19 @@
+{
+    "Part": {
+        "path": "mongodb://part:yoopard1214@192.168.198.202/Part"
+    },
+    "Node_Api": {
+        "path": "mongodb://part:yoopard1214@192.168.198.202/Part"
+    },
+    "qiniu": {
+    "access_key": "XKN4i910Do8nC9UfUUayrJ5OaU-DnQ94yCjc0tQH",
+    "secret_key": "Iwg4rxK8nmmQ72alehn1v1PXxQjykjEUXWQY85y0",
+    "bucket": "nodejs-debug",
+    "address": "http://otl5uc2cs.bkt.clouddn.com/"
+  },
+  "development_version": "http://apiall.yoopardtest.com/bolt",
+  "YBOss_address": "http://apiall.yoopardtest.com/boltoss",
+  "YBPart_address": "http://apiall.yoopardtest.com/part",
+  "YBStatistics_address": "http://apiall.yoopardtest.com/statistics/",
+  "YBProtection_address": "http://apiall.yoopardtest.com/protection"
+}

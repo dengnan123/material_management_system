@@ -1,0 +1,60 @@
+进入领用申请页面的初始化查询
+
+{
+	"api_name":"ApplicationModel.ApplicationModel_init_find",
+	"company_id":"0684ed90-83df-11e7-811d-b537147a6196"
+}
+
+新增领用申请
+{
+	"api_name":"ApplicationModel.ApplicationModel_add",
+	"company_id":"0684ed90-83df-11e7-811d-b537147a6196",
+	"warehouse_id":"ba48f530-9508-11e7-83dc-4985ceb93917",
+	"work_order_number":"工单号",
+	"user_name":"申请人名字",
+	"user_id":"申请人ID",
+	"order_id":"工单ID",
+	"application_time":"申请时间",
+	"parts_list":[{
+		"part_id":"5392e9c0-9de8-11e7-93ca-a58b0bce1a59",
+		"part_number":"CCTV",
+		"part_name":"橘子",
+		"part_type":"ABC",
+		"part_unit":"一个",
+		"remark":"我是备注了",
+		"application_quantity":20,
+		"outgoing_quantity":"待发数量"
+	},
+	{
+		"part_id":"ba7e1530-9deb-11e7-92ac-fb5473195c77",
+		"part_number":"CCAV",
+		"part_name":"香蕉",
+		"part_type":"AC",
+		"part_unit":"一个",
+		"remark":"我是备注了",
+		"application_quantity":20,
+		"outgoing_quantity":"待发数量"
+	}
+		]
+}
+
+领用申请搜索页面列表
+{
+	"api_name":"ApplicationModel.ApplicationModel_find",
+	"warehouse_id":"ba48f530-9508-11e7-83dc-4985ceb93917",
+	"work_order_number":"工单号",
+	"company_id":"0684ed90-83df-11e7-811d-b537147a6196",
+	"from_time":"开始时间",
+	"to_time":"截止时间",
+	"user_name":"申请人名字",
+	"page_size":2,
+	"current_page":1
+	
+}
+
+领用申请详情查看
+{
+	"api_name":"ApplicationModel.ApplicationModel_details_find",
+	"Application_id”:”领用申请单ID”,
+	"company_id":"0684ed90-83df-11e7-811d-b537147a6196"
+}

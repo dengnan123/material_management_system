@@ -1,0 +1,16 @@
+{
+    "Part": {
+        "path": "mongodb://part:yoopard1214@10.28.89.21/Part"
+    },
+    "qiniu": {
+        "access_key": "XKN4i910Do8nC9UfUUayrJ5OaU-DnQ94yCjc0tQH",
+        "secret_key": "Iwg4rxK8nmmQ72alehn1v1PXxQjykjEUXWQY85y0",
+        "bucket": "nodejs-source-e",
+        "address": "http://qiniu-e.yoopard.com/"
+    },
+    "development_version":"https://apiall.yoopard.com/bolt",
+    "YBOss_address": "http://apiall.yoopard.com/boltoss",
+    "YBPart_address": "https://apiall.yoopard.com/part",
+    "YBStatistics_address": "http://apiall.yoopard.com/statistics/",
+    "YBProtection_address": "https://apiall.yoopard.com/protection"
+}
